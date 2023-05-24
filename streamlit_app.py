@@ -7,7 +7,7 @@ fruits_selected=streamlit.multiselect("Pick some fruits:", list(my_fruit_list.in
 
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 
-streamlit.title("Welcome to Pandiaraj Hotel")
+streamlit.title("Welcome to Ishu Hotel")
 
 streamlit.header('Breakfast Menu')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
